@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #f9f9f9;
+    padding: 25px;
+}
+.zhuce{
+    width: 854px;
+    height: 550px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background: white;
+    text-align: center;
+}
+h1{
+    font-size: 28px;
+    margin-top: 49px;
+}
+p{
+    font-size: 14px;
+    text-align: left;
+    text-indent:270px;
+}
+#btn{
+    width: 330px;
+    height: 40px;
+    margin-bottom: 9px;
+}
+.zhuce div{
+    margin:0 auto;
+    height: 40px;
+    width: 330px;
+}
+.zhuce div span{
+  float: left;
+    width: 63px;
+    height: 48px;
+    border:1px solid #e0e0e0;
+    border-right:0; 
+    text-align: center;
+    line-height: 48px;
+}
+.zhuce div input{
+    float: left;
+    width: 263px;
+     height: 48px;
+    border:1px solid #e0e0e0;
+     font-size: 14px;
+}
+#tes{
+    margin-bottom: 23px;
+}
+#phNum{
+    color:#9d9d9d;
+}
+#phone{
+    display: none;
+    color:#ff6700;
+}
+#mas{
+    width: 329px;
+    height: 50px;
+    font-size:14px;
+    line-height: 50px;
+    color:#9d9d9d;
+    margin-top: 54px;
+    background: #ef5b00;
+    color:#fcffef;
+    border:none;
+}
+#last1{
+    font-size: 14px;
+    color:#9d9d9d;
+}
+#last2{
+    font-size: 14px;
+    color:#9d9d9d;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#333333;
+}

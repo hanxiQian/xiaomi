@@ -1,0 +1,43 @@
+	html,body,ul,li{
+				margin:0;
+				padding:0;
+			}
+			#box{
+				position:relative;
+				width:400px;
+				height:300px;
+				border:1px solid black;
+			}
+			
+			img{
+				position:absolute;
+				left:0px;
+				top:0px;
+				width:400px;
+				height:300px;
+			}
+			
+			ul{
+				position:absolute;
+				list-style:none;
+				right:50px;
+				bottom:10px;
+				z-index:2;
+			}
+			
+			ul li{
+				margin-right:20px;
+				width:20px;
+				height:20px;
+				border-radius:50%;
+				background-color:white;
+				float:left;
+			}
+			
+			#box img:nth-child(1){
+				z-index:1;
+			}
+			
+			ul li:nth-child(1){
+				background-color:red;
+			}

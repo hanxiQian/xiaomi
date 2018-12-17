@@ -1,0 +1,305 @@
+		body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td{
+	margin:0;
+	padding:0;
+	/*text-align: center;*/
+}
+body{
+	font-family: "微软雅黑",Arial;
+	background: white;
+}
+ul,ol{
+	list-style:none;
+}
+img{
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+header{
+	width: 100%;
+	height:99px;
+	padding-left:108px;
+	padding-top:26px;
+	padding-bottom: 24px;
+}
+header img{
+	width:48px; 
+	height:48px;
+	float: left;
+	vertical-align: middle;
+}
+header div{
+	text-align: center;
+	/*float: left;*/
+	width:180px; 
+	height:50px;
+	margin-left: 22px;
+
+}
+header p:first-child{
+	font-size:31px;
+	color:#333333;
+}
+header p:last-child{
+	font-size: 6px;
+	color:#8f8f8f;
+	white-space: nowrap;
+}
+section{
+	width: 100%;
+	height:555px;
+	/*float: left;
+*/	margin-top: 32px;
+	background-image:url(../img/xmad_15402884393036_KqnCH.jpg);
+	background-repeat:no-repeat;
+	background-position: center;
+	position: relative;
+}
+.box{
+	position: absolute;
+	top:75PX;
+	left:830PX;
+	width: 412px;
+	height:525px;
+	background-color:white;
+	/*display: none;*/
+}
+#box_box1{
+	display: block;
+
+}
+#box_box{
+	
+	display: none;
+}
+#box_box2{
+	display: none;
+}
+#box_box2 #x2 span{
+	display: inline-block;
+	font-size:14px;
+	height:49px;
+	width: 66px;
+	color:black;
+}
+#box_box2 #x2 span:nth-of-type(1){
+	display: inline-block;
+	height:49px;
+	width: 66px;
+	background: white;
+	position: absolute;
+	left: 312px;
+	top:135px;
+	line-height: 49px;
+	border-left:1px solid gray;
+}
+#box_box2 #x2 span:nth-of-type(2){
+	display: inline-block;
+	height:49px;
+	width: 66px;
+	background: white;
+	position: absolute;
+	left: 312px;
+	top:211px;
+	white-space:nowrap;
+	line-height: 49px;
+	border-left:1px solid gray;
+}
+#box_box2 #x2 input:first-child{
+	display: inline-block;
+	height:49px;
+	width:284px;
+	position: absolute;
+	top:0px;
+	left:0px;
+}
+#box_box2 #x2 input:last-child{
+	display: inline-block;
+	height:49px;
+	width:284px;
+	position: absolute;
+	top:184px;
+	left:26px;
+}
+
+#box_box2 #x2 #zhuCe{
+	width: 348px;
+	height:49px;
+	position: absolute;
+	top:271px;
+	left:28px;
+}
+/*#box_box2 #zhuCe{
+	display: inline-block;
+	width:139px;
+	height:25px; 
+
+}
+#box_box2 #zhuCe a{
+	color:white;
+	display: inline-block;
+	width:139px;
+	height:25px; 
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+#x1{
+	width: 412px;
+	height:86px;
+	text-align: center;
+	padding-top: 33px;
+}
+/*#x1 img{
+	width: 
+	height
+	display:inline-block;
+	position: absolute;
+	top: 
+	left
+}*/
+#x1 span{
+	display: inline-block;
+	font-size: 26px;
+	width:139px;
+	height:25px; 
+}
+#x1 span:first-child{
+	color: #f56600;
+	font-size:26px;
+	border-right: 1px solid  #e0e0e0;
+}
+#x1 span:first-child:hover{
+	cursor: pointer;
+}
+#x1 span:last-child{
+	color:#666666; 
+	font-size:26px;
+}
+#x1 span:last-child:hover{
+	color: #f56600;
+	cursor: pointer;
+}
+#x2{
+	width: 412px;
+	height: 186px;
+	text-align: center;
+}
+#x2 input{
+	display: inline-block;
+	width: 348px;
+	height:51px;
+	border:1px solid #9d9d9d;
+	color: #9d9d9d;
+	font-size:12px;
+}
+#x2 input:nth-child(2){
+	margin-top:14px; 
+	margin-bottom:24px;
+}
+#x2 span{
+	width: 348px;
+	height:51px;
+	display:inline-block;
+	background-color: #f56600;
+}
+#x2 span input{
+	background-color: #f56600;
+}
+
+#x2 span input:hover{
+	cursor: pointer;
+	/*background-color: #f56600;*/
+}
+#x3{
+	width: 348px;
+	height: 138px;
+	margin-top:12px;
+	text-align: center;
+	padding-left:30px;
+}
+#x3 #left{
+	width: 125px;
+	height: 27px;
+	float: left;
+	margin-right:88px;
+}
+#x3 #left span{
+	font-size:14px; 
+	color:#f56600;
+	
+	/*margin-right: 96px;*/
+}
+#x3 #left span:hover{
+	cursor: pointer;
+}
+#x3 #right{
+	width:135px; 
+	height:27px;
+	float: left;
+}
+#x3 #right a:hover{
+	color: #f56600;
+}
+#x3 #right a{
+	color:#9d9d9d;
+	font-size:14px;
+}
+
+#x3 p{
+	color: #9d9d9d;
+	font-size:14px;
+	width:350px; 
+	height:14px;
+}
+#x3 p img{
+	display: inline-block;
+	width: 133px;
+	height:1px;
+	/*float: left;*/
+}
+#last{
+	width: 300px;
+	height:77px;
+	position: absolute;
+	top:403px;
+	left:59px;
+	border-top: 1px solid #9d9d9d;
+	padding-top:17px;
+}
+#last img{
+	display: inline-block;
+	width: 33px;
+	height: 29px;
+	border-radius: 10px;
+	margin-left: 5px;
+}
+#last p{
+	width: 85px;
+	height:12px;
+	position:absolute;
+	top:-10px;
+	left:103px;
+	fot-size:16px;
+	color: #9d9d9d;
+	background-color: white;
+}
+#saoMa img{
+	display: inline-block;
+	width:180px;
+	height:182px;
+	position: absolute;
+	top:150px;
+	left:113px;
+}
